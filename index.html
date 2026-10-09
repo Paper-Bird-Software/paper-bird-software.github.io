@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Bird</title>
+<meta name="description" content="Paper Bird builds Unity tools for 2D game art. Makers of Paper Doll Machine.">
+<link rel="icon" href="Images/paper_bird_logo_trim.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="./" aria-label="Paper Bird — home">
+      <img src="Images/paper_bird_logo_trim.png" alt="Paper Bird">
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#products">Products</a>
+      <a href="#studio">Studio</a>
+
+      <div class="dropdown" data-dropdown data-open="false">
+        <button type="button" aria-expanded="false" aria-haspopup="true" aria-controls="docs-menu">
+          Documentation
+          <svg class="caret" viewBox="0 0 10 10" fill="none" aria-hidden="true">
+            <path d="M1 3.2 5 7 9 3.2" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="menu" id="docs-menu" role="menu">
+          <li role="none">
+            <a role="menuitem"
+               href="https://paper-bird-software.github.io/paper-doll-machine/"
+               target="_blank" rel="noopener">
+              Paper Doll Machine
+              <span>Manual, setup and reference</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <svg class="hero-facets" viewBox="0 0 1440 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g fill="currentColor" color="#E7EEF4">
+        <polygon points="1040,0 1440,0 1440,250" opacity=".55"/>
+        <polygon points="1440,180 1440,470 1180,560 1010,300" opacity=".32"/>
+        <polygon points="1130,0 1440,320 1200,560 980,210" opacity=".28"/>
+        <polygon points="860,560 1180,330 1270,560" opacity=".22"/>
+      </g>
+    </svg>
+
+    <div class="wrap">
+      <p class="label">Game development tools</p>
+      <h1>Unity tools for <em>Indie devs</em></h1>
+      <p>
+        Paper Bird is a small studio building editor tools for Indie developers and small teams.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#products">See Paper Doll Machine</a>
+        <a class="btn btn-ghost" href="https://paper-bird-software.github.io/paper-doll-machine/"
+           target="_blank" rel="noopener">Read the documentation</a>
+      </div>
+    </div>
+  </section>
+
+  <svg class="fold" viewBox="0 0 1440 38" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,38 720,0 1440,38" fill="currentColor"/>
+  </svg>
+
+  <section id="products" class="tint">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="label">Products</p>
+        <h2>One tool, built properly.</h2>
+        <p>Rather than many half-finished assets, Paper Bird ships few tools and keeps them sharp.</p>
+      </div>
+
+      <article class="product">
+        <div class="product-figure">
+          <svg class="figure-facets" viewBox="0 0 420 460" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g fill="none" stroke="#243C60" stroke-width="1" opacity=".13">
+              <polygon points="300,-40 460,120 330,300"/>
+              <polygon points="330,300 460,120 470,330"/>
+              <polygon points="300,-40 330,300 180,170"/>
+              <polygon points="330,300 470,330 360,470"/>
+            </g>
+          </svg>
+          <h3>Paper Doll Machine</h3>
+          <p>
+            Bake a modular 3D character into a layered 2D sprite library — one sheet
+            per body part, every piece swappable, every angle covered.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://paper-bird-software.github.io/paper-doll-machine/"
+               target="_blank" rel="noopener">Documentation</a>
+          </div>
+        </div>
+
+        <div class="product-body">
+          <ul class="feat">
+            <li>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><b>Modular equipment.</b> <span>One sprite sheet per part. Build armor sets and swap any piece without re-exporting.</span></p>
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><b>Bake Style.</b> <span>Define the whole look in one asset — three-point lighting, rim light, self-shadow and material override.</span></p>
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><b>Supersampling up to 8×.</b> <span>Premultiplied-alpha downscaling for clean edges with no dark halo.</span></p>
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><b>Weapons and shadows.</b> <span>Equipment baked with the character, plus ground shadows on their own layer.</span></p>
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><b>Isometric or top-down.</b> <span>Up to 16 directions, with a JSON manifest documenting every bake.</span></p>
+            </li>
+          </ul>
+
+          <div class="meta">
+            <span><b>Unity</b> 2022.2+</span>
+            <span><b>Pipelines</b> Built-in &amp; URP</span>
+            <span><b>Output</b> PNG sheets + JSON</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="studio">
+    <div class="wrap studio">
+      <div class="section-head" style="margin-bottom:0">
+        <p class="label">Studio</p>
+        <h2>Fold it flat.</h2>
+        <p>
+          A paper bird is a flat sheet that becomes a figure — and then folds back down
+          again. That is close to the work: taking something built in three dimensions
+          and laying it out cleanly in two.
+        </p>
+        <p>
+          Paper Bird makes editor tooling for Unity, aimed at the slow, repetitive part
+          of 2D production. The goal is simple — hours instead of weeks, without giving
+          up control over how the art looks.
+        </p>
+      </div>
+      <div class="studio-mark">
+        <img src="Images/paper_bird_logo_trim.png" alt="">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <small>© <span id="yr">2026</span> Paper Bird. All rights reserved.</small>
+    <nav aria-label="Footer">
+      <a href="#products">Products</a>
+      <a href="#studio">Studio</a>
+      <a href="https://paper-bird-software.github.io/paper-doll-machine/"
+         target="_blank" rel="noopener">Documentation</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  document.querySelectorAll('[data-dropdown]').forEach(function (dd) {
+    var btn = dd.querySelector('button');
+    var open = function (state) {
+      dd.dataset.open = state ? 'true' : 'false';
+      btn.setAttribute('aria-expanded', state ? 'true' : 'false');
+    };
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      open(dd.dataset.open !== 'true');
+    });
+    dd.addEventListener('mouseenter', function () { open(true); });
+    dd.addEventListener('mouseleave', function () { open(false); });
+    dd.addEventListener('focusout', function (e) {
+      if (!dd.contains(e.relatedTarget)) open(false);
+    });
+    document.addEventListener('click', function (e) {
+      if (!dd.contains(e.target)) open(false);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && dd.dataset.open === 'true') { open(false); btn.focus(); }
+    });
+  });
+</script>
+
+</body>
+</html>
